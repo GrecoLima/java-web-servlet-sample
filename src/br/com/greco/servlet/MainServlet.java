@@ -12,6 +12,6 @@ public class MainServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		 PrintWriter writer = resp.getWriter();
-	     writer.print("top");
+	     writer.print("Hello Servlet");
 	}
 }
